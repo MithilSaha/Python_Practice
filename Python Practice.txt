@@ -1,3 +1,9 @@
 1. roll_no = 23
 2. #f-string removes the use of str function in print function.
 3. print(f"My Roll Number is {roll_no}")
+4. my_name = "Mithil Saha"
+5. for i in my_name:
+6.	#count function counts the character in a string
+7.	#lower function makes a string  in lower case
+8. 	counter = my_name.lower().count(i)
+9. 	print(f"{i} is {counter} times")
